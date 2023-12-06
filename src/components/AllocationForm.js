@@ -15,12 +15,6 @@ const AllocationForm = (props) => {
                 setCost("");
                 return;
             }
-			//ibraRaj
-			if(budget > 20000) {
-                alert("The value cannot exceed   £ 20,000");
-                setBudget("");
-                return;
-            }
 
         const expense = {
             name: name,
